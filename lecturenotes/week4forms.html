@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Example</title>
+</head>
+<body>
+    <h1>Food Order Form</h1>
+    <form method="post" action="">
+
+    <!-- Input Type Text -->
+        <label for="fullname">Name:</label> <!-- this adds a label next to the text box (label must match the id)-->
+        <input type="text" id="fullname" name="fullname"><br> <!-- br adds line break b/w forms-->
+
+    <!-- Text Area -->
+        <label for="specialinstructions">Special Instructions</label>
+        <textarea id="specialinstructions" name="specialinstructions"></textarea><br>
+
+    <!-- Input Type Radio (Buttons> -->
+        <label for="delivery">Delivery</label>
+        <input type="radio" id="delivery" name="deliverypickup" value="delivery">
+        <label for="pickup">Pickup</label>
+        <input type="radio" id="pickup" name="deliverypickup" value="pickup"><br>
+
+    <!-- Input Type Checkbox -->
+        <label for="plastic">Do you need plastic utensils?</label>
+        <input type="checkbox" id="plastic" name="plastic" value="yes"><br>
+
+    <!-- Select -->
+        <label for="region">What region?</label>
+        <select id="region" name="region">
+            <option value="westcott">Westcott</option> <!--select is not void tag-->
+            <option value="downtown">Downtown</option>
+            <option value="eastwood">Eastwood</option>
+            <option value="oak street">Oak Street</option> <!-- can have spaces in value attribute, not id or name-->
+        </select><br>
+
+
+    <!--Input Type Submit-->
+        <input type="submit" value="send my form">
+        
+    </form>
+
+</body>
+</html>
