@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+
+    <body>
+        <h1>Contact</h1>
+        <p>
+            <!-- Address -->
+            Sam Zaintz<br>
+            4 Avon Place<br>
+            Woodcliff Lake, NJ<br>
+            07677
+        </p>
+            <!--External Link -->
+        <h2>LinkedIn Profile</h2>
+        <p> <a href="https://www.linkedin.com/in/samantha-zaintz/" target="_blank">LinkedIn</a></p> 
+
+        <!--Image (alt is for blind people accessing website)-->
+        <img src="../images/logosized.png" alt="linkedin image">   
+
+        <!--Email-->
+        <h2>Email</h2>
+        <p> <a href="mailto:sbzaintz@syr.edu">Sam Zaintz Email</a> </p>
+
+        <!--Embedded Image-->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.671807666202!2d-74.06670729999999!3d41.03243559999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2e5cfe8107dbd%3A0xceee5eea02b74e04!2s4%20Avon%20Pl%2C%20Woodcliff%20Lake%2C%20NJ%2007677!5e0!3m2!1sen!2sus!4v1663257217738!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h1>Contact Form</h1>
+        <form action="https://formspree.io/f/xwkzopgq" method="POST">
+            
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname"><br>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <label for="priority">High Priority Message</label>
+            <input type="checkbox" id="priority" name="priority" value="yes"><br>
+
+            <input type="submit" value="send message">
+
+        </form>
+
+    </body>
