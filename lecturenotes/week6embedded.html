@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- This is an embedded style sheet (This is CSS language) -->
+    <style> 
+    /*Group element selector*/
+        P, h1 {
+            color:blue;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight:bolder
+        }
+        /*Descendent selectors pick an element inside another element*/
+        a {
+            color:orange;
+        }
+
+        /* changes color of first bullet (put in firstbullet as the id) */
+        #firstbullet {
+            color:crimson;
+        }
+        /* class=pinktext in h1 */
+        .pinktext {
+            color:hotpink
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 class="pinktext">Week 6 CSS</h1>
+    <p>Lorem <a href="http://www.ebay.com">ipsum</a> dolor sit amet consectetur adipisicing elit. Ipsa, velit laborum perspiciatis officiis reiciendis dolore eaque est neque ullam omnis asperiores modi distinctio eos quasi porro, animi veniam voluptatum maiores?</p>
+    <ul>
+        <li><a href="http://www.amazon.com" id="firstbullet">Amazon</a></li>
+        <li><a href="http://www.google.com">Google</a></li>
+    </ul>
+</body>
+</html>
