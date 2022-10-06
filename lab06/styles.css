@@ -1,0 +1,16 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+h1, h2 {
+    color:deeppink;
+}
+
+.evenrow {
+    background-color:greenyellow
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
