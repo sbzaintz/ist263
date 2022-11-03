@@ -81,8 +81,7 @@ p, h1 {
     max-width: 100%;
 }
 
-
 @media only screen and (max-width: 600px) {
-    nav, a {max-width: 100%; display: block; margin: 10px; padding: 5px;}
+    nav a {max-width: 100%; display: block; margin: 10px; padding: 5px;}
     span {display: none;}
 }
