@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .row1, .row2 {display: flex; margin: 10px; background-color: white; border-radius: 1em; padding: 10px;}
+            .address, .map {flex:1;}
+            .socials, .form  {flex:4;}
+            .address, .socials, .map, .form {padding: 10px}
+            /*lab 10*/
+            .row2 {flex-wrap: wrap;}
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Home</a> <span>&#124;</span>
+            <a href="skills.html">Skills</a> <span>&#124;</span>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+        <h1>Contact</h1>
+
+    <div class="row1">
+        <div class="address">
+        <p>
+            <!-- Address -->
+            Sam Zaintz<br>
+            4 Avon Place<br>
+            Woodcliff Lake, NJ<br>
+            07677
+        </p>
+        </div>
+            <!--External Link -->
+        <div class="socials">    
+        <h2>LinkedIn Profile</h2>
+        <p> <a href="https://www.linkedin.com/in/samantha-zaintz/" target="_blank">LinkedIn</a></p> 
+        <img src="../images/logosized.png" alt="linkedin image">   
+
+        <h2>Email</h2>
+        <p> <a href="mailto:sbzaintz@syr.edu">Sam Zaintz Email</a> </p>
+        </div>
+    </div>    
+
+    <div class="row2">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.671807666202!2d-74.06670729999999!3d41.03243559999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2e5cfe8107dbd%3A0xceee5eea02b74e04!2s4%20Avon%20Pl%2C%20Woodcliff%20Lake%2C%20NJ%2007677!5e0!3m2!1sen!2sus!4v1663257217738!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    
+        <div class="form">
+        <h1>Contact Form</h1>
+        <form action="https://formspree.io/f/xwkzopgq" method="POST">
+            
+            <label for="fullname">Name:</label>
+            <input type="text" id="fullname" name="fullname"><br>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <label for="priority">High Priority Message</label>
+            <input type="checkbox" id="priority" name="priority" value="yes"><br>
+
+            <input type="submit" value="send message">
+        </form>
+        </div>
+    </div>
+    </body>

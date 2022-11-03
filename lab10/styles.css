@@ -1,0 +1,88 @@
+body {
+    background-color: #C3F8FF;
+}
+
+h1 {
+   color: #083AA9 
+}
+
+p {
+    color:#06283D
+}
+
+a {
+    color: #256d85
+}
+
+nav {
+    background-color: #C3FF99;
+    margin-bottom: 30px;
+    padding: 10px
+}
+
+nav a {
+    color: #293462
+}
+
+a:hover {
+    background-color: #21E1E1
+}
+
+
+/* Lab 9*/
+p, h1 {
+    text-align: center;
+}
+
+.skills, .flexbox2 {
+    display: flex;
+}
+
+.images {
+    padding: 30px;
+}
+
+.otherskills {
+    background-color:fuchsia;
+    border-radius: 1em;
+    padding: 10px;
+    margin: 5px;
+    padding-left: 20px;
+}
+
+.column1 {
+    flex-basis: 75%;
+    margin-left: 20px;
+}
+
+.column2 {
+    flex-basis: 25%;
+    margin-right: 20px;
+}
+
+.intro {
+    display: flex;
+    margin: 30px;
+    flex-basis: 75%;
+    text-align:justify;
+}
+
+.images {
+    margin: 10px;
+}
+
+.div {
+    padding: 5px;
+    margin: 10px;
+}
+
+/* Lab 10*/
+.banner {
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav, a {max-width: 100%; display: block; margin: 10px; padding: 5px;}
+    span {display: none;}
+}
