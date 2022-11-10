@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        @media only screen and (max-width: 600px) {
+            body {background-color:aqua;}
+            img {display: none;}
+        }
+
+
+        img {
+            float: left;
+        }
+
+        p {
+            clear: left
+        }
+
+        .row1 {
+            display: flex;
+            font-weight: 600;
+
+        }
+
+        .aboutme, .resume, .mywork {
+            border: 1px solid black;
+
+        }
+
+        .resume {
+            flex: -2;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="image">
+    
+    <img src="project/media/buckingham2.jpg" width="400px" class="img">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores, similique id dolorem tempora delectus incidunt atque inventore quibusdam non ad, molestias eligendi asperiores eius sequi ab. Enim, voluptatem mollitia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequuntur laborum praesentium maiores minus earum voluptatem quod aliquam placeat dolore, eveniet magnam sunt officia, eum asperiores pariatur laudantium assumenda commodi.</p>
+    </div>
+
+    <div class="row1">
+        <div class="aboutme">About Me</div>
+        <div class="resume">Resume</div>
+        <div class="mywork">My Work</div>
+    </div>
+
+
+
+</body>
+</html>
