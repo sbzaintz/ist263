@@ -88,7 +88,8 @@ h1 {
 
 /* Lab 11 */
 .skip {
-    background-color: #ffa500;
+    background-color: #1E8DFF;
+    color: #ffffff;
     padding: 5px;
     border: 1px solid black;
     position: absolute; 
