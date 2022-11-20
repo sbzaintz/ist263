@@ -4,7 +4,9 @@ body {
 }
 
 nav {
-    background-color: #96bdff;
+    /* display: flex;
+    justify-content: space-evenly; */
+    background-color: #b7d2ff;
     border-radius: 1em;
     margin-bottom: 30px;
     padding: 15px;
@@ -16,7 +18,15 @@ a:hover {
     color: #ff5e5e;
 }
 
+a:visited {
+    color:#180085;
+}
+
 a:link {
+    color: #180085;
+}
+
+span {
     color: #180085;
 }
 
@@ -66,7 +76,7 @@ footer {
     left: 10px; }
 
 @media only screen and (max-width: 600px) {
-    nav a {max-width: 100%; display: block; margin: 10px; padding: 5px; text-align: center;}
+    nav a {max-width: 100%; flex: none; display: block; margin: 10px; padding: 5px; text-align: center;}
     span {display: none;}
     .aboutme {font-size: 40px;}
 }
