@@ -52,3 +52,21 @@ footer {
     margin-right: auto;
     max-width: 100%;
 } 
+
+.skip {
+    background-color: #ffa500;
+    padding: 5px;
+    border: 1px solid black;
+    position: absolute; /* places button on top of everything else*/
+    top: 30px;
+    left: -999px; /* Pushes it off screen */
+}
+
+.skip:focus {
+    left: 10px; }
+
+@media only screen and (max-width: 600px) {
+    nav a {max-width: 100%; display: block; margin: 10px; padding: 5px; text-align: center;}
+    span {display: none;}
+    .aboutme {font-size: 40px;}
+}
