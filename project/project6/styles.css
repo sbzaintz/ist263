@@ -6,6 +6,7 @@ body {
 nav {
     /* display: flex;
     justify-content: space-evenly; */
+    text-align:center;
     background-color: #b7d2ff;
     border-radius: 1em;
     margin-bottom: 30px;
@@ -67,9 +68,9 @@ footer {
     background-color: #ffa500;
     padding: 5px;
     border: 1px solid black;
-    position: absolute; /* places button on top of everything else*/
+    position: absolute; 
     top: 30px;
-    left: -999px; /* Pushes it off screen */
+    left: -999px; 
 }
 
 .skip:focus {
@@ -79,4 +80,5 @@ footer {
     nav a {max-width: 100%; flex: none; display: block; margin: 10px; padding: 5px; text-align: center;}
     span {display: none;}
     .aboutme {font-size: 40px;}
+    .quote {flex-wrap: wrap;}
 }
