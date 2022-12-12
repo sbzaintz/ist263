@@ -1,6 +1,7 @@
 body {
     background-color: #FAF7F0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    /*font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
+    font-family: 'Rubik', sans-serif;
 }
 
 nav {
@@ -12,10 +13,15 @@ nav {
     margin-bottom: 30px;
     padding: 15px;
     padding-left: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
-a:hover {
+#londontimelapse {
+    display: block;
+    margin: auto;
+}
+
+nav a:hover {
     color: #ff3838;
 }
 
@@ -92,8 +98,34 @@ h1 {
 
 .daytime {
     line-height: 1.5;
-    margin: 20px;
+    margin: 50px;
     color: #180085;
     font-size: 20px;
     text-align: center;
 }
+
+.row {
+    display: flex;
+    margin: 30px;
+}
+
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0px;
+}
+
+.descriptions {
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+/*.buckingham1, .buckingham2 {
+    float: left;
+}
+ .clear {
+    clear: both;
+ }
+/*
