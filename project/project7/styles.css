@@ -75,6 +75,15 @@ h1 {
     max-width: 100%;
 } 
 
+.fadein {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .skip {
     background-color: #ffa500;
     padding: 5px;
@@ -87,16 +96,10 @@ h1 {
 .skip:focus {
     left: 10px; }
 
-@media only screen and (max-width: 600px) {
-    nav a {max-width: 100%; flex: none; display: block; margin: 10px; padding: 5px; text-align: center;}
-    span {display: none;}
-    .aboutme {font-size: 40px;}
-    .quote {flex-wrap: wrap;}
-}
-
 /* Day */
 
-.daytime {
+
+.daytime, .nighttime {
     line-height: 1.5;
     margin: 50px;
     color: #180085;
@@ -107,24 +110,55 @@ h1 {
 .row {
     display: flex;
     margin: 30px;
+    border-radius: 1em;
+    background-color: #b7d2ff;
+    align-items: center;
 }
 
 
-h2 {
+h2, .h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    margin: 0px;
+    margin: 30px;
 }
 
 .descriptions {
     font-size: 20px;
     line-height: 30px;
+    margin: 30px;
+}
 
+.row img {
+    margin: 20px;
+}
+
+.list {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    line-height: 1.5;
+    border-radius: 1em;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {max-width: 100%; flex: none; display: block; margin: 10px; padding: 5px; text-align: center;}
+    span {display: none;}
+    .aboutme {font-size: 40px;}
+    .quote {flex-wrap: wrap;}
+    .row {background-color: #FAF7F0; flex-direction: column;}
+    .row img {display: none;}
+
+}
+
+@media only screen and (max-width: 920px) {
+    .respimg {display: none;}
 }
 
 /*.buckingham1, .buckingham2 {
     float: left;
 }
+
  .clear {
     clear: both;
  }
