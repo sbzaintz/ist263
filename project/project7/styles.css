@@ -39,6 +39,9 @@ span {
 
 .quote {
     color: #ff3838;
+    background-color: #ffffff;
+    border-radius: 1em;
+    padding: 5px;
 }
 
 footer {
@@ -154,12 +157,3 @@ h2, .h2 {
 @media only screen and (max-width: 920px) {
     .respimg {display: none;}
 }
-
-/*.buckingham1, .buckingham2 {
-    float: left;
-}
-
- .clear {
-    clear: both;
- }
-/*
