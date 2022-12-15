@@ -37,8 +37,12 @@ span {
     color: #180085;
 }
 
+hr {
+    color: #ff3838
+}
+
 .quote {
-    color: #fc0317;
+    color: #180085;
     background-color: #ffffff;
     border-radius: 1em;
     padding: 5px;
