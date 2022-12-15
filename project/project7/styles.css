@@ -69,7 +69,7 @@ h1 {
 
 .intro {
     line-height: 1.5;
-    margin: 20px;
+    margin: 40px;
     color: #180085;
     font-size: 20px;
     text-align: center;
@@ -151,6 +151,8 @@ h2, .h2 {
 form {
     background-color: #b7d2ff;
     border-radius: 1em;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 5px;
     text-align: center;
     display: block;
