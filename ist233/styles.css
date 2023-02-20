@@ -1,0 +1,43 @@
+body {
+    background-color: #c2fffa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px;
+    background-color: #d1d1d1;
+    border-radius: 10em;
+    padding-left: 10px;
+}
+
+h2 {
+    padding-left: 20px;
+}
+
+img {
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    border-radius: 1em;
+}
+
+.paragraph {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.h3 {
+    text-align: left;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.chat {
+    width: 50px;
+}
