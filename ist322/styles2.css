@@ -1,0 +1,41 @@
+body {
+    background-color: aliceblue;
+}
+
+img {
+    width: 300px;
+}
+
+.landing {
+    background-color:crimson;
+    border-radius: 1em;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.dontmiss {
+    padding: 10px;
+    text-align: center;
+    background-color: #ebebeb;
+    flex-basis: 50%;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 25px;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    font-size: 25px;
+}
+
+
